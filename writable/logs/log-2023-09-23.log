@@ -1,0 +1,165 @@
+CRITICAL - 2023-09-23 03:49:53 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:49:57 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:50:33 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:50:47 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:51:00 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:51:14 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:51:24 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:51:43 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:51:44 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:52:44 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:53:17 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:54:18 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:54:39 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:55:11 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:55:28 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:55:36 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:55:57 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:56:42 --> Class 'App\Model\Model' not found
+in APPPATH\Models\MyModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\myproject\\app\\Models\\MyModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyModel')
+ 5 APPPATH\Controllers\MyController.php(8): spl_autoload_call('App\\Models\\MyModel')
+ 6 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:58:01 --> Class 'App\Models\Model' not found
+in APPPATH\Models\MyModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\myproject\\app\\Models\\MyModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyModel')
+ 5 APPPATH\Controllers\MyController.php(8): spl_autoload_call('App\\Models\\MyModel')
+ 6 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 03:58:15 --> Class 'App\Models\Model' not found
+in APPPATH\Models\MyModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\myproject\\app\\Models\\MyModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyModel')
+ 5 APPPATH\Controllers\MyController.php(8): spl_autoload_call('App\\Models\\MyModel')
+ 6 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 04:03:28 --> Call to a member function tambahData() on null
+in APPPATH\Controllers\MyController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->tambahData()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 04:03:46 --> Call to a member function tambahData() on null
+in APPPATH\Controllers\MyController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->tambahData()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 04:03:55 --> Call to a member function tambahData() on null
+in APPPATH\Controllers\MyController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->tambahData()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 04:04:09 --> Call to a member function tambahData() on null
+in APPPATH\Controllers\MyController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->tambahData()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 04:04:23 --> Call to a member function tambahData() on null
+in APPPATH\Controllers\MyController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->tambahData()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
