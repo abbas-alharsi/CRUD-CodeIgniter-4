@@ -1,0 +1,105 @@
+ERROR - 2023-09-28 03:08:12 --> mysqli_sql_exception: Unknown column 'product' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\MyModel.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\MyController.php(15): App\Models\MyModel->insertData()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(919): App\Controllers\MyController->insertData()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 03:08:12 --> Unknown column 'product' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`product`, `category`, `qty`, `price`) VALUES (:product:, :category:, :qty:, :price:)', [...], false)
+ 2 APPPATH\Models\MyModel.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\MyController.php(15): App\Models\MyModel->insertData()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->insertData()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 03:09:56 --> mysqli_sql_exception: Unknown column 'product' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\MyModel.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\MyController.php(15): App\Models\MyModel->insertData()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(919): App\Controllers\MyController->insertData()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 03:09:56 --> Unknown column 'product' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`product`, `category`, `qty`, `price`) VALUES (:product:, :category:, :qty:, :price:)', [...], false)
+ 2 APPPATH\Models\MyModel.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\MyController.php(15): App\Models\MyModel->insertData()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->insertData()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 03:11:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Models\MyModel.php on line 17.
+ 1 APPPATH\Models\MyModel.php(28): App\Models\MyModel->getData()
+ 2 APPPATH\Controllers\MyController.php(15): App\Models\MyModel->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->insertData()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 07:37:41 --> Class 'App\Model\MyModel' not found
+in APPPATH\Controllers\MyController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 11:29:11 --> Call to a member function getData() on null
+in APPPATH\Controllers\MyController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->getData('3')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 11:29:54 --> Call to a member function getData() on null
+in APPPATH\Controllers\MyController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 11:30:16 --> Undefined property: App\Controllers\MyController::$myModal
+in APPPATH\Controllers\MyController.php on line 24.
+ 1 APPPATH\Controllers\MyController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\MyController::$myModal', 'C:\\xampp\\htdocs\\myproject\\app\\Controllers\\MyController.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->getData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 13:10:57 --> Call to undefined function App\Models\getPost()
+in APPPATH\Models\MyModel.php on line 25.
+ 1 APPPATH\Controllers\MyController.php(16): App\Models\MyModel->insertData()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 13:11:59 --> Call to undefined function App\Models\getPost()
+in APPPATH\Models\MyModel.php on line 25.
+ 1 APPPATH\Controllers\MyController.php(16): App\Models\MyModel->insertData()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 13:12:47 --> Call to undefined function App\Models\getPost()
+in APPPATH\Models\MyModel.php on line 25.
+ 1 APPPATH\Controllers\MyController.php(16): App\Models\MyModel->insertData()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 13:17:19 --> Call to undefined function App\Models\getPost()
+in APPPATH\Models\MyModel.php on line 26.
+ 1 APPPATH\Controllers\MyController.php(16): App\Models\MyModel->insertData()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

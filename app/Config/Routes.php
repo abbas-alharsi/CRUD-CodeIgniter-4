@@ -7,7 +7,6 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'MyController::myView');
 $routes->post('/insert-data','MyController::insertData');
-$routes->get('/getdata/(:any)','MyController::getData/$1');
-$routes->get('/getdata','MyController::getData');
-$routes->post('/delete','MyController::deleteData');
-$routes->post('/update','MyController::updateData');
+$routes->post('/delete-data', 'MyController::deleteData');
+$routes->get('/getdata/(:any)', 'MyController::getData/$1');
+$routes->post('/edit-data', 'MyController::updateData');

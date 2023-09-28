@@ -7,24 +7,26 @@ class MyController extends BaseController {
     public function __construct() {
         $this->myModel = new MyModel();
     }
-    public function myView() {
+    public function myView(){
         $data['rows'] = $this->myModel->getData();
-        return view('myview', $data);
+        $data['title'] = 'My App';
+        return view('myView', $data);
     }
-    public function insertData(){
+    public function insertData() {
         $data = $this->myModel->insertData();
-        echo json_encode($data);
-    }
-    public function getData($id = false) {
-        $data = $this->myModel->getData($id);
         echo json_encode($data);
     }
     public function deleteData() {
         $data = $this->myModel->deleteData();
         echo json_encode($data);
     }
+    public function getData($id = false) {
+        $data = $this->myModel->getData($id);
+        echo json_encode($data);
+    }
     public function updateData() {
         $data = $this->myModel->updateData();
         echo json_encode($data);
     }
+
 }
